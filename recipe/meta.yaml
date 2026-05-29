@@ -1,5 +1,5 @@
 {% set name = "vitaldb" %}
-{% set version = "1.6.0" %}
+{% set version = "1.6.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/vitaldb-{{ version }}.tar.gz
-  sha256: f8150d25606502cace12692400565b72198fc5a23a1f6749a9664bd65aa3c33d
+  sha256: 4d76141804e53f0a682bd620e8dc867eb6eb297ecde51f82dc8cab25b350c2dc
 
 build:
   noarch: python
